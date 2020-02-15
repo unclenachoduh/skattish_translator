@@ -92,8 +92,12 @@ def translate(source, mood):
 
 			if a == b:
 				prev = True
-				if p[-1] == "p":
+				if p[-1] == "n":
+					p = p
+				elif p[-1] == "p":
 					p += "_iddy"
+				elif p[-1] == "t":
+					p += "_illy"
 				else:
 					if c > 2:
 						p += "_dill"
