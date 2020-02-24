@@ -6,6 +6,10 @@ Translate any English sentence into Skattish, the conlang created by the Perfect
 
 `python3 translate.py`
 
+_Run with GUI_
+
+`python3 translate_gui.py`
+
 ## Notes
 
 Translator depends on:
